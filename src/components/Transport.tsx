@@ -84,7 +84,53 @@ export function Transport() {
         </div>
       </div>
 
-      {/* Card 2: Day 4 Hiroshima to Osaka */}
+      {/* Card 2: Day 2 Hiroshima to Rabbit Island */}
+      <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
+        <div className="bg-gradient-to-r from-pink-500 to-rose-400 p-4 text-white">
+          <div className="flex justify-between items-center mb-1">
+            <span className="text-pink-100 text-xs font-bold tracking-wider uppercase bg-pink-700/30 px-2 py-0.5 rounded">Day 2</span>
+            <Train className="w-4 h-4 text-pink-100" />
+          </div>
+          <h3 className="text-xl font-bold mt-2">廣島 ➔ 兔仔島 / 尾道</h3>
+          <p className="text-pink-100 text-sm mt-1">善用新幹線，極速去睇兔仔！</p>
+        </div>
+        <div className="p-5">
+          <div className="bg-pink-50 p-3 rounded-xl border border-pink-100 mb-5">
+            <p className="text-xs text-pink-900 leading-relaxed font-medium">
+              💡 放心！去兔仔島**絕對可以搭新幹線**！由廣島出發搭「こだま (Kodama)」或者「さくら (Sakura)」到三原站，時間由搭慢車嘅個幾鐘，極速縮短到只需 <strong className="text-pink-600 text-sm">25 分鐘</strong>，而且有機會遇到 Hello Kitty 新幹線！
+            </p>
+          </div>
+          
+          <div className="flex items-stretch gap-4">
+            <div className="flex flex-col items-center mt-1">
+              <div className="w-3 h-3 rounded-full bg-pink-500 ring-4 ring-pink-50"></div>
+              <div className="w-0.5 h-12 bg-gray-200 my-1"></div>
+              <div className="w-3 h-3 rounded-full bg-blue-500 ring-4 ring-blue-50"></div>
+              <div className="w-0.5 h-12 bg-gray-200 my-1"></div>
+              <div className="w-3 h-3 rounded-full bg-orange-500 ring-4 ring-orange-50"></div>
+            </div>
+            <div className="flex-1 space-y-5">
+              <div>
+                <p className="font-bold text-gray-900">廣島站</p>
+                <p className="text-xs text-gray-500 mt-0.5">搭乘 山陽新幹線 (約 25 分鐘 超極速)</p>
+              </div>
+              <div>
+                <div className="flex items-center gap-2">
+                  <p className="font-bold text-gray-900">三原站</p>
+                  <span className="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded font-medium">轉車</span>
+                </div>
+                <p className="text-xs text-gray-500 mt-0.5">轉乘 JR 吳線 (約 20 分鐘)</p>
+              </div>
+              <div>
+                <p className="font-bold text-gray-900">忠海站 / 忠海港</p>
+                <p className="text-xs text-gray-500 mt-0.5">行路去碼頭搭船上兔仔島</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Card 3: Day 4 Hiroshima to Osaka */}
       <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
         <div className="bg-gradient-to-r from-orange-600 to-orange-500 p-4 text-white">
           <div className="flex justify-between items-center mb-1">

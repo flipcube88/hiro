@@ -6,6 +6,7 @@ const destinations = [
   { id: 'hiroshima', zh: '廣島', ja: '広島', romaji: 'Hiroshima' },
   { id: 'shinosaka', zh: '新大阪', ja: '新大阪', romaji: 'Shin-Ōsaka' },
   { id: 'onomichi', zh: '尾道', ja: '尾道', romaji: 'Onomichi' },
+  { id: 'mihara', zh: '三原 (兔島)', ja: '三原', romaji: 'Mihara' },
 ];
 
 const seatTypes = [
